@@ -6,8 +6,11 @@ output:
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+# Who Am I
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
-# Links in the site nevigation for Github account, email, linkedin 
+# Hobby 
+
+# Pet Friends
+
