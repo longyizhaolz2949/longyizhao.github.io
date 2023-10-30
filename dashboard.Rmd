@@ -11,49 +11,65 @@ library(flexdashboard)
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
-data("nyc_airbnb")
+data("rest_inspec")
 
-nyc_airbnb = 
-  nyc_airbnb |> 
-  mutate(rating = review_scores_location / 2) |>
-  select(
-    borough = neighbourhood_group, neighbourhood, rating, price, room_type, lat, long) |>
-  filter(
-    !is.na(rating), 
-    borough == "Manhattan",
-    room_type == "Entire home/apt",
-    price %in% 100:500)
+
+rest_inspect = 
+  rest_inspec |>
+  janitor::clean_names() |>
+  mutate(year = format(as.Date(inspection_date, format = "%Y/%m/%d"), "%Y")) |>
+  filter(!is.na(score),
+         grade == "A", 
+         boro == "MANHATTAN", 
+         year == 2017) |>
+  select(cuisine_description, dba, score, street, zipcode, grade) |>
+  mutate(cuisine_description = gsub("Latin .*", "Latin", cuisine_description)) 
+  
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Chart A
-
+different cuisine score boxplot
 ```{r}
-nyc_airbnb |> 
-  mutate(neighbourhood = fct_reorder(neighbourhood, price)) |> 
-  plot_ly(y = ~price, color = ~neighbourhood, type = "box", colors = "viridis")
+rest_inspect |>
+  group_by(cuisine_description) |>
+  filter(n()>50) |>
+  ungroup() |>
+  mutate(cuisine_description = fct_reorder(cuisine_description, score)) |>
+  plot_ly(y = ~score, x = ~cuisine_description, type = "box", color = ~cuisine_description, colors = "viridis")
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### Chart B
-
+number of restarant grouped by zipcode
 ```{r}
-nyc_airbnb |>
-  mutate(text_label = str_c("Price $", price, "\nRating:", rating)) |>
-  plot_ly(x=~lat, y = ~long, color = ~price, text = ~text_label, 
-          type = "scatter", mode = "markers", alpha = 0.5)
+rest_inspect |>
+  count(zipcode) |>
+  mutate(zipcode = fct_reorder(as.character(zipcode), n)) |>
+  plot_ly(x = ~zipcode, y = ~n, color = ~zipcode, type = "bar", colors = "viridis")
 ```
 
 ### Chart C
 
+thai, japanese, korean, vietnamese, Indonesian food score over time 
 ```{r}
-nyc_airbnb |>
-  count(neighbourhood) |>
-  mutate(neighbourhood = fct_reorder(neighbourhood, n)) |> 
-  plot_ly(x = ~neighbourhood, y = ~n, type = "bar", color = ~neighbourhood, colors = "viridis")
+asian_rest = 
+  rest_inspec |>
+  janitor::clean_names() |>
+   mutate(year = format(as.Date(inspection_date, format = "%Y/%m/%d"), "%Y")) |>
+  filter(!is.na(score),
+         cuisine_description == c("Thai", "Chinese", "Korean", "Japanese", "Indonesian", "Vietnamese/Cambodian/Malaysia", "Filipino"),
+         boro == "MANHATTAN") |>
+  select(year, cuisine_description, score) 
+
+asian_rest |>
+  group_by (year, cuisine_description) |>
+  summarize(ave_score = mean (score)) |>
+  ungroup() |>
+  plot_ly (x = ~year, y = ~ave_score, color = ~cuisine_description, type = "scatter", mode = "lines+markers", colors = "viridis") 
 ```
 
