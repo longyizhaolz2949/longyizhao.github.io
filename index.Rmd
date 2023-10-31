@@ -10,8 +10,7 @@ output:
 Hi~ This is Longyi. I am currently a first year M.S Biostatistics student at Mailman School of Public Health. This is a picture of me!
 ![](image/me.jpeg)
 
-# Hobby 
-I love baking
+
 # Pet Friends
 I have three close pet friends. The first one is a 5 years old cat called Jumy, he's my mom's cat. 
 ![](image/Jumy.jpeg)
