@@ -5,44 +5,44 @@ output: html_document
 zhaolongyi_us@outlook.com | (213) 709 – 1205 |  [LinkedIn](https://www.linkedin.com/in/longyi-zhao/)
 
 ## EDUCATION
-**Columbia University, New York, NY**				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+**Columbia University, New York, NY**				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 Expected: 2025\
 M.S. in Biostatistics (Pharmaceutical Statistics)\
 Course Highlights: Data Science, Principles of Epidemiology, Biostatistical Methods
 
-**University of Southern California (USC), Los Angeles, CA**	 		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;2023\		  	            
+**University of Southern California (USC), Los Angeles, CA**	 		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2023\		  	            
 B.S. in Chemical Engineering\	
 Notable Achievements: Dean’s List (All Semesters)\
 Course Highlights: Calculus 1/2/3, Mathematics of Physics and Engineering 1 (Linear Algebra), Numerical and Statistical Analysis for Chemical Engineers, Programming in Python
 
 
 ## Experience
-**Huayou Cobalt Co., Jiaxing, CN**	 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	        	 	       06/2023 – 08/2023\
+**Huayou Cobalt Co., Jiaxing, CN**	 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;		        	 	       06/2023 – 08/2023\
 Intern, Research & Development\
 - Making lithium batteries under lab conditions: slurry mixing, slurry drying, electrolyte filling, cell assembly\
 - Operate battery test equipment to perform routine laboratory cell level testing, including electrical characterization, like cycle life, calendar life, energy density, inner resistance
 
-**Jiangsu Provincial Center for Disease Control and Prevention, Nanjing, CN**	06/2021 – 08/2021\
+**Jiangsu Provincial Center for Disease Control and Prevention, Nanjing, CN**	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	06/2021 – 08/2021\
 Research Assistant: Evaluation of the Effectiveness of 27 COVID-19 Vaccines (including Pfizer and CanSino)\
 - Partnered with a team of six Ph.D. students to create a study strategy that included cross-over (combining placebo and vaccines group), test-negative and stepped-wedge designs\
 - Translated and revised existing translations of ~20 academic papers between Mandarin and English\
 - Cultivated and collected E. coli with strain needles in preparation for conducting five additional studi
 
 ## Academic Project
-**University of Southern California (USC), Los Angeles, CA**   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;        					            11/2022\
+**University of Southern California (USC), Los Angeles, CA**   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;	     					            11/2022\
 Python Project: Create web page and visualize men vs. women salaries Big Data\
 - Wrote a web app in Python using Flask, pandas, scikit-learn, and matplotlib\
 - Performed scientific computation of the ~1000 datapoints dataset and used machine learning to make 10-year predictions based on the computation\ 
 - Created two plots to visualize the dataset, one is based on the dataset, one is based on the ML-processed predictions
 
-**University of Southern California (USC), Los Angeles, CA**     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     					            05/2023\
+**University of Southern California (USC), Los Angeles, CA**     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	     					            05/2023\
 Senior Project: Chemical Process and Plant Design\
 - Drew process flow diagram for converting methanol to dimethyl ether (DME) using AVEVA Process Simulation\
 - Performed 20-year economic analysis, using MATLAB, factoring in land costs, product values and the fixed cost of production, based on historic prices of methanol and DME raw materials in the United States\
 - Presented a description of the project process and profitability conclusions to the faculty of the Chemical Engineering department
 
 ## Extracurricular Activities 
-**University Clubs**: Food Justice Initiative; Bloom Mentoring	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;						    2023\
+**University Clubs**: Food Justice Initiative; Bloom Mentoring	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;						    2023\
 **Forage**: Ashurst - Building Your Personal Brand, Virtual Experience program participant
 
 ## Skills
