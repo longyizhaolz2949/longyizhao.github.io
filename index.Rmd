@@ -8,16 +8,23 @@ output:
 
 # Who Am I
 Hi~ This is Longyi. I am currently a first year M.S Biostatistics student at Mailman School of Public Health. This is a picture of me!
-![](image/me.jpeg)
-
+<div style="text-align:center;">
+  <img src="image/me.jpeg" alt="Your Image" style="width: 65%;">
+</div>
 
 # Pet Friends
 I have three close pet friends. The first one is a 5 years old cat called Jumy, he's my mom's cat. 
-![](image/Jumy.jpeg)
+<div style="text-align:center;">
+  <img src="image/Jumy.jpeg" alt="Your Image" style="width: 65%;">
+</div>
 
 This is my friend Sara's dog called Jingle, she got this name because she was born on the Christmas eve. She is 8 years old I think. 
-![](image/Jingle.jpeg)
+<div style="text-align:center;">
+  <img src="image/Jingle.jpeg" alt="Your Image" style="width: 65%;">
+</div>
 
 The other one is also a dog called Bagel, he is my friend Lucia's dog. Sara and Lucia are sisters, so Jingle and Bagel live together sometimes. 
-![](image/bagel.jpeg)
+<div style="text-align:center;">
+  <img src="image/bagel.jpeg" alt="Your Image" style="width: 65%;">
+</div>
 
