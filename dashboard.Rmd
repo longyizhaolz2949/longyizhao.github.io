@@ -30,8 +30,7 @@ rest_inspect =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
-different cuisine score boxplot
+### Different Cuisine Score Boxplot
 ```{r}
 rest_inspect |>
   group_by(cuisine_description) |>
@@ -44,8 +43,8 @@ rest_inspect |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
-number of restarant grouped by zipcode
+### Number of Restaurant in Zipcode histogram
+
 ```{r}
 rest_inspect |>
   count(zipcode) |>
@@ -53,7 +52,7 @@ rest_inspect |>
   plot_ly(x = ~zipcode, y = ~n, color = ~zipcode, type = "bar", colors = "viridis")
 ```
 
-### Chart C
+### Asian food score changes over time lineplot
 
 thai, japanese, korean, vietnamese, Indonesian food score over time 
 ```{r}
