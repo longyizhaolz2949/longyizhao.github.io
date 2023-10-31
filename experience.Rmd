@@ -4,7 +4,8 @@ output: html_document
 ---
 zhaolongyi_us@outlook.com | (213) 709 – 1205 |  [LinkedIn](https://www.linkedin.com/in/longyi-zhao/)
 
-## EDUCATION
+## <span style="text-decoration: underline;">Education</span>
+
 **Columbia University, New York, NY**				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 Expected: 2025\
 M.S. in Biostatistics (Pharmaceutical Statistics)\
@@ -16,7 +17,7 @@ Notable Achievements: Dean’s List (All Semesters)\
 Course Highlights: Calculus 1/2/3, Mathematics of Physics and Engineering 1 (Linear Algebra), Numerical and Statistical Analysis for Chemical Engineers, Programming in Python
 
 
-## Experience
+## <span style="text-decoration: underline;">Experience</span>
 **Huayou Cobalt Co., Jiaxing, CN**	 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;		        	 	       06/2023 – 08/2023\
 Intern, Research & Development\
 - Making lithium batteries under lab conditions: slurry mixing, slurry drying, electrolyte filling, cell assembly\
@@ -28,7 +29,7 @@ Research Assistant: Evaluation of the Effectiveness of 27 COVID-19 Vaccines (inc
 - Translated and revised existing translations of ~20 academic papers between Mandarin and English\
 - Cultivated and collected E. coli with strain needles in preparation for conducting five additional studi
 
-## Academic Project
+## <span style="text-decoration: underline;">Academic Projects</span>
 **University of Southern California (USC), Los Angeles, CA**   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;	     					            11/2022\
 Python Project: Create web page and visualize men vs. women salaries Big Data\
 - Wrote a web app in Python using Flask, pandas, scikit-learn, and matplotlib\
@@ -41,11 +42,11 @@ Senior Project: Chemical Process and Plant Design\
 - Performed 20-year economic analysis, using MATLAB, factoring in land costs, product values and the fixed cost of production, based on historic prices of methanol and DME raw materials in the United States\
 - Presented a description of the project process and profitability conclusions to the faculty of the Chemical Engineering department
 
-## Extracurricular Activities 
+## <span style="text-decoration: underline;">Extracurricular Activities</span>
 **University Clubs**: Food Justice Initiative; Bloom Mentoring	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;						    2023\
 **Forage**: Ashurst - Building Your Personal Brand, Virtual Experience program participant
 
-## Skills
+## <span style="text-decoration: underline;">Skills</span>
 **Technology**: MATLAB, Python, AVEVA Process Simulation, SuperPro Designer, SPSS, Microsoft Office Suite, RStudio  \
 **Language**: English (Fluent), Mandarin (Native) 
 
