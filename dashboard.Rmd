@@ -68,11 +68,12 @@ rest_inspect |>
 asian_rest = 
   rest_inspec |>
   janitor::clean_names() |>
-   mutate(year = format(as.Date(inspection_date, format = "%Y/%m/%d"), "%Y")) |>
+  mutate(year = format(as.Date(inspection_date, format = "%Y/%m/%d"), "%Y")) |>
   filter(!is.na(score),
          cuisine_description == c("Thai", "Chinese", "Korean", "Japanese", "Indonesian", "Vietnamese/Cambodian/Malaysia", "Filipino"),
          boro == "MANHATTAN") |>
-  select(year, cuisine_description, score) 
+  select(year, cuisine_description, score) |>
+  mutate(cuisine_description = gsub("Vietnamese/Cambodian/Malaysia", "Viet/Camb/Mala", cuisine_description)) 
 
 asian_rest |>
   group_by (year, cuisine_description) |>
