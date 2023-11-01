@@ -56,8 +56,8 @@ rest_inspect |>
   mutate(zipcode = fct_reorder(as.character(zipcode), n)) |>
   plot_ly(x = ~zipcode, y = ~n, color = ~zipcode, type = "bar", colors = "viridis") |>
   layout(
-    xaxis = list(title = "Number of Restaurants"),
-    yaxis = list(title = "Zipcodes"),
+    xaxis = list(title = "Zipcodes"),
+    yaxis = list(title = "Number of Restaurants"),
     title = "Number of Restaurants grouped by Zipcodes"
   )
 ```
